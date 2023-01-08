@@ -170,3 +170,49 @@ body {
   border-radius: 5px;
 }
 /* motivation section end */
+/* footer section start */
+.footer {
+  background-color: #151414;
+  color: #fff;
+  padding: 60px 200px;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-content .text {
+  width: 50%;
+}
+.footer-content .text h2 {
+  margin-bottom: 20px;
+}
+.footer-content .text .email {
+  margin: 10px 0;
+}
+.footer-content .text ul {
+  list-style: none;
+  display: flex;
+  margin-top: 10px;
+}
+.footer-content .text ul li img {
+  margin-right: 20px;
+}
+.form input {
+  display: block;
+  margin: 10px 0;
+  padding: 10px 12px;
+  border: 2px solid #fff;
+  outline: none;
+  background-color: #151414;
+  border-radius: 10px;
+  color: #f3f3f3;
+}
+.form button {
+  padding: 10px 25px;
+  background-color: #fff;
+  color: #f14b22;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+/* footer section end */
