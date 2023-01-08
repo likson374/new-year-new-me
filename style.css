@@ -50,6 +50,52 @@ body {
 }
 /* banner section end */
 /* failure section css */
+.about {
+  margin-bottom: 60px;
+}
+.about .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about .container .image {
+  padding: 40px;
+  height: 100%;
+  margin-right: 50px;
+  position: relative;
+}
+
+.about .container .image img {
+  height: 100%;
+}
+.about-content ul{
+  list-style: none;
+}
+.about-content h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #151414;
+}
+.about-content p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #444343;
+  margin: 15px 0;
+}
+.about-content .image{
+  width: 50%;
+}
+.about-content .about-list {
+  list-style: none;
+  color: #444343;
+  margin: 10px 0;
+}
+.about-content .about-list span {
+  color: #16d887;
+}
+/* failure section end */
+/* failure section css */
 .failure {
   margin-bottom: 60px;
 }
@@ -159,6 +205,7 @@ body {
 .motivation-content h2 {
   color: #fff;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 .motivation-content button {
   border: none;
@@ -199,7 +246,7 @@ body {
 }
 .form input {
   display: block;
-  margin: 10px 0;
+  margin: 15px 0;
   padding: 10px 12px;
   border: 2px solid #fff;
   outline: none;
