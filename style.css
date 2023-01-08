@@ -1,54 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: 'Work Sans', sans-serif;
+body {
+  font-family: "Work Sans", sans-serif;
 }
-section{
-    
+section {
 }
-.container{
-    width: 70vw;
-    height: 100vh;
-    border: 1px solid blue;
-    margin: 0 auto;
+.container {
+  width: 70vw;
+  height: 100vh;
+  margin: 0 auto;
 }
-.banner{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: row-reverse;
-    text-align: right;
-    background-image: url("images/banner/banner2.png");
-    background-size: cover;
+.banner {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: right;
+  background-image: url("images/banner/banner2.png");
+  background-size: cover;
 }
-.banner-content{
-    margin: auto 200px;
-    
+.banner-content {
+  margin: auto 200px;
 }
-.banner-content h2{
-    font-size: 65px;
-    font-weight: 700;
-    color: #151414;
+.banner-content h2 {
+  font-size: 65px;
+  font-weight: 700;
+  color: #151414;
 }
-.banner-content p{
-    font-size: 16px;
-    font-weight: 300;
-    margin: 20px 0;
-    color: #444343;
+.banner-content p {
+  font-size: 16px;
+  font-weight: 300;
+  margin: 20px 0;
+  color: #444343;
 }
-.banner-content button{
-    color: #fff;
-    background-color: #F14B22;
-    padding: 16px 30px;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    font-family: 'Work Sans',;
-    font-weight: 600;
-    font-size: 16px;
+.banner-content button {
+  color: #fff;
+  background-color: #f14b22;
+  padding: 16px 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-size: 16px;
 }
 /* failure section start */
+
+.failure .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.failure .container .image {
+  padding: 40px;
+  height: 100%;
+  margin-right: 50px;
+  position: relative;
+}
+.failure .container .image .circle {
+  position: absolute;
+  width: 450px;
+  background-color: rgba(241, 91, 34, 0.2);
+  height: 450px;
+  bottom: 43px;
+  right: 43px;
+  border-radius: 50%;
+  z-index: -1;
+}
+.failure .container .image img {
+  height: 100%;
+}
+.failure-content h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #151414;
+}
+.failure-content p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #444343;
+  margin: 15px 0;
+}
+.failure-content .failure-list {
+  list-style: none;
+  color: #444343;
+  margin: 10px 0;
+}
+.failure-content .failure-list span {
+  color: #16d887;
+}
